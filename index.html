@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Choiganic Revolution</title>
+   <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+   <div class="navbar">
+      <div class="container">
+         <a class="logo" href="#">Choi<span>Ganic</span></a>
+<img  style=width:20px;height:20px; id="mobile-cta" class="mobile-menu" src="/menu.svg" alt="Open Navigation">
+         <nav>
+            <img style=width:20px;height:20px; id="mobile-exit" class="mobile-menu-exit" src="/exit.svg" alt="Close Navigation">
+            <ul class="primary-nav">
+               <li class="current" > <a href="#">Home</a> </li>
+               <li> <a href="#">About Us</a> </li>
+               <li> <a href="#">Products</a> </li>
+            </ul>
+            <ul class="secondary-nav" >
+               <li> <a href="#">Contact</a> </li>
+               <li class="join-us-cta" > <a href="#">Join Us</a> </li>
+               
+            </ul>
+         </nav>
+      </div>
+
+   </div>
+   <section class="hero" >
+      <div class="container" > 
+         <div class="left-col">
+            <p class="subhead" >anything and everything is possible</p>
+            <h1>Do You Want to Live ALL NATURAL?</h1>
+            <div class="hero-cta">
+               <a href="#" class="primary-cta" >Sign Up Now</a>
+               <a href="#" class="watch-video-cta" >
+                  <img style=width:20px;height:20px; src="/video-camera.svg" alt="watch a video">Watch a video
+               </a>
+            </div>
+         </div>
+<img  src="/planet-earth.svg" class="hero-img" alt="Our Planet">
+      </div>
+
+   </section>
+   <section class="features-section"> 
+      <div class="container">
+         <ul class="features-list" >
+            <li>Nutrition is the Key</li>
+            <li>Another Key is Qi Energy</li>
+            <li>Faith and Discipline</li>
+            <li>Be Aware of your Environment</li>
+            
+            <li>Enriching  Mind, Body and Soul</li>
+            <li>Best Practices in Yoga and Meditation</li>
+            <li>Eastern Wisdom/Western Enthusiasm</li>
+            <li>Total Empowerment</li>
+            <li>It is a Long Journey and We Never Quit</li>
+         </ul>
+         <img src="/womanmeditating.jpg" alt="Woman meditating">
+      </div>
+   </section>
+   <section class="testimonials-section" >
+      <div class="container">
+         <ul>
+            <li>
+               <img src="/woman.jpg" alt="Person">
+               <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, eos eligendi eveniet ab qui neque, laboriosam repellendus sapiente sit et earum nobis cumque ullam, error facere similique illum saepe dolore."
+
+               </blockquote>
+               <cite>-Jane Doe</cite>
+            </li>
+            <li>
+               <img src="/woman.jpg" alt="Person">
+               <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, eos eligendi eveniet ab qui neque, laboriosam repellendus sapiente sit et earum nobis cumque ullam, error facere similique illum saepe dolore."
+
+               </blockquote>
+               <cite>-Jane Doe</cite>
+            </li>
+            <li>
+               <img src="/woman.jpg" alt="Person">
+               <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, eos eligendi eveniet ab qui neque, laboriosam repellendus sapiente sit et earum nobis cumque ullam, error facere similique illum saepe dolore."
+
+               </blockquote>
+               <cite>-Jane Doe</cite>
+            </li>
+         </ul>
+      </div>
+
+   </section>
+   <section class="contact-section" >
+      <div class="container">
+         <div class="contact-left">
+            <h2>Contact</h2>
+
+            <form action="">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name">
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email">
+               <label for="message">Message</label>
+               <textarea name="message" id="message" cols="30" rows="10"></textarea>
+               <input type="submit"  class="send-message-cta" value="Send message">
+            </form>
+         </div>
+         <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450393.41386867646!2d-82.62233911628579!3d28.125215431002786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b71cb745d4cf%3A0xcdb4931b7a28d38a!2sNew%20Tampa%2C%20Tampa%2C%20FL!5e0!3m2!1sen!2sus!4v1619836347327!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+      </div>
+   </section>
+   <script>
+      const mobileBtn = document.getElementById('mobile-cta')
+      nav = document.querySelector('nav')
+      mobileBtnExit = document.getElementById('mobile-exit');
+
+      mobileBtn.addEventListener('click' , () => {
+nav.classList.add('menu-btn');
+      })
+
+      mobileBtnExit.addEventListener('click' , () => {
+nav.classList.remove('menu-btn');
+      })
+
+
+   </script>
+   
+</body>
+</html>
